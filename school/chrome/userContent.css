@@ -1,0 +1,56 @@
+@-moz-document url("about:newtab") {
+  .top-sites-list {
+    display: flex !important;
+    flex-flow: row nowrap !important;
+    align-items: stretch !important;
+
+    .top-site-outer {
+      &:hover {
+        transform: scale(1.08);
+        transition: all 0.2s ease-in-out;
+        .title {
+          opacity: 1;
+        }
+      }
+      &:not(:hover) {
+        transition: all 0.1s ease-out;
+        .title {
+          opacity: 0.33;
+        }
+      }
+    }
+
+    .top-site-inner,
+    .top-site-button {
+      height: 100% !important;
+    }
+
+    .top-site-button {
+      padding: 20px 16px !important;
+
+      .top-site-icon {
+        background-size: 100% !important;
+        width: 100% !important;
+        height: 100% !important;
+      }
+
+      .title {
+        width: 100% !important;
+        padding-top: 16px !important;
+        display: flex !important;
+        justify-content: center !important;
+        font-size: 1.2rem !important;
+
+        span:first-child {
+          width: min-content !important;
+          writing-mode: vertical-rl !important;
+        }
+
+        .icon-pin-small,
+        .sponsored-label {
+          display: none !important;
+        }
+      }
+    }
+  }
+}
