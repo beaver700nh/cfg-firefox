@@ -1,4 +1,14 @@
 user_pref(
+  "taskbar.grouping.useprofile",
+  true
+);
+
+user_pref(
+  "browser.startup.blankWindow",
+  false
+);
+
+user_pref(
   "devtools.toolbox.host",
   "right"
 );
