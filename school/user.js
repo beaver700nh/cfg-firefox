@@ -79,8 +79,8 @@ user_pref(
 );
 
 user_pref(
-  "toolkit.legacyUserProfileCustomizations.stylesheets",
-  true
+  "browser.startup.page",
+  3
 );
 
 user_pref(
@@ -89,8 +89,8 @@ user_pref(
 );
 
 user_pref(
-  "browser.startup.page",
-  3
+  "toolkit.legacyUserProfileCustomizations.stylesheets",
+  true
 );
 
 user_pref(
