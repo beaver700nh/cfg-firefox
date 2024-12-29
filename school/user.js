@@ -75,22 +75,7 @@ user_pref(
 
 user_pref(
   "browser.uiCustomization.state",
-  '{ "placements": { "widget-overflow-fixed-list": [], "unified-extensions-area": [], "nav-bar": [ "firefox-view-button", "back-button", "forward-button", "stop-reload-button", "home-button", "urlbar-container", "downloads-button", "developer-button", "fxa-toolbar-menu-button", "unified-extensions-button", "sidebar-button", "alltabs-button" ], "toolbar-menubar": ["menubar-items"], "TabsToolbar": [], "vertical-tabs": ["tabbrowser-tabs"], "PersonalToolbar": [ "personal-bookmarks" ] }, "seen": [ "save-to-pocket-button", "developer-button", "profiler-button" ], "dirtyAreaCache": ["nav-bar", "PersonalToolbar", "toolbar-menubar", "TabsToolbar", "unified-extensions-area", "vertical-tabs" ], "currentVersion": 20, "newElementCount": 5 }'
-);
-
-user_pref(
-  "sidebar.backupState",
-  '{ "width": "", "command": "", "expanded": true, "hidden": false }'
-);
-
-user_pref(
-  "sidebar.revamp",
-  true
-);
-
-user_pref(
-  "sidebar.verticalTabs",
-  true
+  '{ "placements": { "widget-overflow-fixed-list": [], "unified-extensions-area": [], "nav-bar": [ "back-button", "forward-button", "stop-reload-button", "home-button", "urlbar-container", "downloads-button", "developer-button", "fxa-toolbar-menu-button", "unified-extensions-button" ], "toolbar-menubar": [ "menubar-items" ], "TabsToolbar": [ "firefox-view-button", "tabbrowser-tabs", "new-tab-button", "alltabs-button" ], "PersonalToolbar": [ "personal-bookmarks" ] }, "seen": [ "save-to-pocket-button", "developer-button", "profiler-button" ], "dirtyAreaCache": [ "nav-bar", "PersonalToolbar", "toolbar-menubar", "TabsToolbar", "unified-extensions-area" ], "currentVersion": 20, "newElementCount": 3 }'
 );
 
 user_pref(
